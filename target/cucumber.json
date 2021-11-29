@@ -1,0 +1,178 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2940383700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefination.beforeRun()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "User should be able to set the background color",
+        "description": "",
+        "id": "techfios-settingup;user-should-be-able-to-set-the-background-color",
+        "after": [
+          {
+            "result": {
+              "duration": 641088400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefination.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2155798300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Set SkyBlue Background button exists",
+            "match": {
+              "location": "StepDefination.set_SkyBlue_Background_button_exists()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2059414600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on the \"bluebutton\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "bluebutton",
+                  "offset": 16
+                }
+              ],
+              "location": "StepDefination.i_click_on_the(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 41074900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the background color will change to sky blue",
+            "match": {
+              "location": "StepDefination.the_background_color_will_change_to_sky_blue()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@Senario1"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2134943200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefination.beforeRun()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "User should be able to change background color",
+        "description": "",
+        "id": "techfios-settingup;user-should-be-able-to-change-background-color",
+        "after": [
+          {
+            "result": {
+              "duration": 4703165900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefination.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2060031200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Set SkyWhite Background button exists",
+            "match": {
+              "location": "StepDefination.set_SkyWhite_Background_button_exists()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 54291300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click on the \"whitebutton\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "whitebutton",
+                  "offset": 16
+                }
+              ],
+              "location": "StepDefination.i_click_on_the(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 38003400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the background color will change to white",
+            "match": {
+              "location": "StepDefination.the_background_color_will_change_to_white()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 10,
+            "name": "@Senario2"
+          }
+        ]
+      }
+    ],
+    "name": "Techfios settingup",
+    "description": "",
+    "id": "techfios-settingup",
+    "keyword": "Feature",
+    "uri": "./src/test/java/features/BlueBackgroud.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Senario"
+      }
+    ]
+  }
+]
